@@ -19,7 +19,7 @@ Clone of Voog Website (https://www.voog.com/)
 1. Fork the repository.
 2. Create a new branch.
 
-        ```git checkout -b <branch-name>```
+    `git checkout -b <branch-name>`
 
 3. Once changes are committed, push changes by doing git push remote-name branch-name
 4. Create a PR(pull request) after pushing your local repo.
