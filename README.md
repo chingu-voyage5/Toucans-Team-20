@@ -21,7 +21,11 @@ Clone of Voog Website (https://www.voog.com/)
 
     `git checkout -b <branch-name>`
 
-3. Once changes are committed, push changes by doing git push remote-name branch-name
+3. Once changes are committed, push changes by doing 
+    
+    `git push <remote-name> <branch-name>`
+
 4. Create a PR(pull request) after pushing your local repo.
 5. Contributors will review it and merge PR into master.
 
+_We're happy to hear your valuable suggestions/feedback._
