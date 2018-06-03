@@ -8,219 +8,244 @@
     <!-- Styles -->
     <link rel="stylesheet" href="dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="dist/css/font-awesome.min.css">
-
-
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/style.css">
 </head>
 
 <body>
     <header id="header">
-            <!--include nav bar and image slideshow-->
-            <nav class="navbar fixed-top">
-                <a href="#" class="navbar-brand">voog</a>
-                <div class="nav-right">
+        <!--include nav bar and image slideshow-->
+        <nav class="navbar fixed-top">
+            <a href="#" class="navbar-brand">voog</a>
+            <div class="nav-right">
 
-                    <div id="mySidenav" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="#">Hello</a>
-                        <a href="#">Tour</a>
-                        <a href="#">Templates</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Support</a>
-                        <a href="#">Blog</a>
-                        <a href="#">About</a>
-                        <a href="#">Developers</a>
-                    </div>
-
-                    <span class="toggler text-uppercase text-center" onclick="openNav()">Menu  <b>&#9776;</b> </span>
-
-                  <a href="" class="login-btn">Log in</a>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Hello</a>
+                    <a href="#">Tour</a>
+                    <a href="#">Templates</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Support</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About</a>
+                    <a href="#">Developers</a>
                 </div>
-            </nav>  
 
-            <!--slider-->
-             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                  
-                  <div class="carousel-item active" style="background-image: url('images/img1.jpg')">
+                <span class="toggler text-uppercase text-center" onclick="openNav()">Menu
+                    <b>&#9776;</b>
+                </span>
+
+                <a href="" class="login-btn">Log in</a>
+            </div>
+        </nav>
+
+        <!--slider-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active" style="background-image: url('dist/images/img1.jpg')">
                     <div class="carousel-caption d-none d-md-block">
-                      <h1>Build awesome websites/stores</h1>
-                      <p>Kauss Architects design and deliver awesome buildings and public spaces — and run their website on Voog.</p>
+                        <h1>Build awesome websites/stores</h1>
+                        <p>Kauss Architects design and deliver awesome buildings and public spaces — and run their website on
+                            Voog.</p>
                     </div>
-                  </div>
-                  
-                  <div class="carousel-item" style="background-image: url('images/img2.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h1>Build awesome websites/stores</h1>
-                      <p>Kauss Architects design and deliver awesome buildings and public spaces — and run their website on Voog.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="carousel-item" style="background-image: url('images/img3.jpg')">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h1>Build awesome websites/stores</h1>
-                      <p>Kauss Architects design and deliver awesome buildings and public spaces — and run their website on Voog.</p>
-                    </div>
-                  </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-        </header>
 
-        
-        <section id="about" class="row">
+                <div class="carousel-item" style="background-image: url('dist/images/img2.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Build awesome websites/stores</h1>
+                        <p>Kauss Architects design and deliver awesome buildings and public spaces — and run their website on
+                            Voog.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item" style="background-image: url('dist/images/img3.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Build awesome websites/stores</h1>
+                        <p>Kauss Architects design and deliver awesome buildings and public spaces — and run their website on
+                            Voog.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+
+    <section id="about" class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 left">
+            <div class="centered">
+                <h1 style="color: #a800ff;">Easy to use.
+                    <br/>Super powerful.</h1>
+                <br/>
+                <p style="color: #000">With Voog you can make beautiful websites from scratch on your own. At the same time web pros build completely
+                    unique large-scale websites on it for their customers. Unlike traditional website builders, Voog is simple
+                    to use, already set up, hosted and monitored 24/7 by our team.</p>
+                <a href="#" style="color:#a800ff; ">And we are always here to help</a>
+            </div>
+        </div>
+        <div class="right col-lg-6 col-md-6 col-sm-6">
+            <div class="centered">
+
+            </div>
+        </div>
+    </section>
+
+    <div id="combined">
+        <!---div for combined background pic change of 2 sections---NEED to DO-->
+
+        <section id="info" class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 left">
                 <div class="centered">
-                    <h1 style="color: #a800ff;">Easy to use.<br/>Super powerful.</h1>
-                    <br/>
-                    <p style="color: #000">With Voog you can make beautiful websites from scratch on your own. At the same time web pros build completely unique large-scale websites on it for their customers. Unlike traditional website builders, Voog is simple to use, already set up, hosted and monitored 24/7 by our team.</p>
-                    <a href="#" style="color:#a800ff; ">And we are always here to help</a>
+                    <h1>Everything is
+                        <br/>what it seems</h1>
+                    <p>Your website is literally what you make out of it. No tricks, no tweaks, no confusing admin panels. Just
+                        drag and drop your pics, texts and videos straight into the site and edit them on the spot in your
+                        browser. No matter which device you use. Anytime. Anywhere.</p>
                 </div>
             </div>
             <div class="right col-lg-6 col-md-6 col-sm-6">
-                <div class="centered">
-                    
-                </div>
+
             </div>
         </section>
 
-        <div id="combined"> <!---div for combined background pic change of 2 sections---NEED to DO-->
-            
-            <section id="info" class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 left">
-                    <div class="centered">
-                        <h1>Everything is <br/>what it seems</h1>
-                        <p>Your website is literally what you make out of it. No tricks, no tweaks, no confusing admin panels. Just drag and drop your pics, texts and videos straight into the site and edit them on the spot in your browser. No matter which device you use. Anytime. Anywhere.</p>
-                    </div>
+
+        <section id="info2" class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 left">
+
+            </div>
+            <div class="right col-lg-6 col-md-6 col-sm-6">
+                <div class="centered">
+                    <h1>Responsive by
+                        <br/>nature</h1>
+                    <p>Voog is flexible and fluid. Your site can be enjoyed in any environment, be it a smartphone, tablet or
+                        desktop.</p>
                 </div>
-                <div class="right col-lg-6 col-md-6 col-sm-6">
-                    
-                </div>
-            </section>
-        
-            
-            <section id="info2" class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 left">
-                    
-                </div>
-                <div class="right col-lg-6 col-md-6 col-sm-6">
-                    <div class="centered">
-                        <h1>Responsive by <br/>nature</h1>
-                        <p>Voog is flexible and fluid. Your site can be enjoyed in any environment, be it a smartphone, tablet or desktop.</p>
-                    </div>
-                </div>
-                
-            </section>
+            </div>
+
+        </section>
+    </div>
+
+    <section id="support" class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 left">
+            <div class="centered">
+                <h1>24/7 Support</h1>
+                <p>Whether you’re a developer in need of assistance, a designer hungry for nice templates to kickstart your
+                    creative process, or user needing some guidance when managing your site, we are backing you up. Our 24/7
+                    support lets you focus fully on creative endeavour. </p>
+            </div>
+        </div>
+        <div class="right col-lg-6 col-md-6 col-sm-6">
+            <div class="centered">
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="info3" class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 left">
+            <div class="centered">
+                <h1 style="color: #000">Ready for takeoff</h1>
+                <p style="color: #000">Voog is pure magic: everything works
+                    <b>straight out of the box.</b> No installing, no configuring and no update notifications. It’s done for
+                    you automagically. Oh, and Voog has built-in SEO support.
+                    <br/>
+                    <br/> As a
+                    <b>client</b> of a web agency you’ll never have to wait for your system admin to add or edit your posts
+                    – with Voog anyone can do it herself. Trust us.</p>
+            </div>
+        </div>
+        <div class="right col-lg-6 col-md-6 col-sm-6">
+            <div class="centered">
+                <h1>True symbiosis</h1>
+                <p>Voog is a dream come true for
+                    <b>designers</b> and
+                    <b>developers</b> creating sites for their
+                    <b>clients</b>. This is your chance to build something really beautiful while making your client’s content
+                    management easy like Sunday morning.
+                    <br/>
+                    <br/> Are you a
+                    <b>hosting</b> company? Excellent. We have an enterprise platform ready for you.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="info4" class="row">
+        <div class="">
+            <h1>Take the plunge.</h1>
+            <a href="#">
+                <h1>Try for free</h1>
+            </a>
         </div>
 
-        <section id="support" class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 left">
-                <div class="centered">
-                    <h1>24/7 Support</h1>
-                    <p>Whether you’re a developer in need of assistance, a designer hungry for nice templates to kickstart your creative process, or user needing some guidance when managing your site, we are backing you up. Our 24/7 support lets you focus fully on creative endeavour. </p>
-               </div>
-            </div>
-            <div class="right col-lg-6 col-md-6 col-sm-6">
-                <div class="centered">
-                        
-                </div>
-            </div>
-        </section>
+    </section>
 
 
-        <section id="info3" class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 left">
-                <div class="centered">
-                    <h1 style="color: #000">Ready for takeoff</h1>
-                    <p style="color: #000">Voog is pure magic: everything works <b>straight out of the box.</b> No installing, no configuring and no update notifications. It’s done for you automagically. Oh, and Voog has built-in SEO support. 
-                        <br/><br/>
-                        As a <b>client</b> of a web agency you’ll never have to wait for your system admin to add or edit your posts – with Voog anyone can do it herself. Trust us.</p>
-               </div>
-            </div>
-            <div class="right col-lg-6 col-md-6 col-sm-6">
-                <div class="centered">
-                     <h1>True symbiosis</h1>
-                    <p>Voog is a dream come true for <b>designers</b> and <b>developers</b> creating sites for their <b>clients</b>. This is your chance to build something really beautiful while making your client’s content management easy like Sunday morning. 
-                        <br/>
-                        <br/>
-                    Are you a <b>hosting</b> company? Excellent. We have an enterprise platform ready for you.</p>   
-                </div>
-            </div>
-        </section>
 
-        <section id="info4" class="row">
-            <div class="">
-                <h1>Take the plunge.</h1> 
-                <a href="#"><h1>Try for free</h1> </a>
-            </div>
+</body>
 
-        </section>
+<!-- Scripts -->
+<script src="dist/js/jquery-3.3.1.min.js"></script>
+<script src="dist/js/popper.min.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
 
 
-        
-    </body>
-    
-    <!-- Scripts -->
-    <script src="dist/js/jquery-3.3.1.min.js"></script>
-    <script src="dist/js/popper.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
+<script type="text/javascript">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <script type="text/javascript">
-       
-        $(document).ready(function(){       
-            var scroll_pos = 0;
-            $(document).scroll(function() { 
-                scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 2300) {
-                    $('#combined').css('background', "url('images/img6.jpg')");
-                }
-            });
+    $(document).ready(function () {
+        var scroll_pos = 0;
+        $(document).scroll(function () {
+            scroll_pos = $(this).scrollTop();
+            if (scroll_pos > 2300) {
+                $('#combined').css('background', "url('dist/images/img6.jpg')");
+            }
         });
+    });
 
 
-        $(document).ready(function(){       
-            var scroll_pos = 0;
-            $(document).scroll(function() { 
-                scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 595 && scroll_pos < 1930) {
-                    $(".toggler").css('color', '#000');
-                    $(".login-btn").css('color', '#000');
-                } else {
-                     $(".toggler").css('color', '#fff');
-                    $(".login-btn").css('color', '#fff');
-                }
-            });
+    $(document).ready(function () {
+        var scroll_pos = 0;
+        $(document).scroll(function () {
+            scroll_pos = $(this).scrollTop();
+            if (scroll_pos > 595 && scroll_pos < 1930) {
+                $(".toggler").css('color', '#000');
+                $(".login-btn").css('color', '#000');
+            } else {
+                $(".toggler").css('color', '#fff');
+                $(".login-btn").css('color', '#fff');
+            }
         });
+    });
 
-        //Side Navbar
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-        }
+    //Side Navbar
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
 
-        /* Set the width of the side navigation to 0 */
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
 
 
 </html>

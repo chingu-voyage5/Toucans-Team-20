@@ -1,6 +1,5 @@
 body{
-	font-size: 15px;
-	overflow-x: hidden;
+	/* font-family:  */
 }
 .navbar-brand,.navbar-brand:hover{
 	color:#fff;
@@ -46,17 +45,6 @@ section{
     font-size: 36px;
     margin-left: 50px;
 }
-.navbar{
-	position: relative;
-	z-index: 1;
-	padding: 0 20px;
-	width: 100vw;
-}
-.nav-right{
-	float: right;
-	clear:both;
-	right: 0;
-}
 .toggler,.login-btn{
 	float: right;
 	border: 2px solid transparent;
@@ -93,28 +81,15 @@ section{
 .row{
 	min-height: 100vh;
 }
-.left{
-    position:absolute; 
-    left:0;
-    color:#fff;
-    height: 100%;
-    width:50%;
+.left, .right{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color:#fff;
+	padding: 4em;
  }
 .right{
-    position: absolute; 
-    right:0;
     color:#000;
-    height: 100%;
-    width:50%;
-    padding: 20px;
- }
- .centered{
-    position: absolute;
-    top:40%;
-    left:45%;
-    transform: translate(-50%,-50%);
-    text-align: left;
-    min-width: 40%;
 }
 #about .right{
 	background: rgba(200,200,200,0.9);
@@ -127,7 +102,7 @@ section{
 	color: #fff;
 }
 #support{
-	background: url("images/img6.jpg") center/cover fixed;
+	background: url("../images/img6.jpg") center/cover fixed;
 	color: #fff;
 	background-color: rgba(0,0,0,0.4);
 	background-blend-mode: overlay;
@@ -136,21 +111,17 @@ section{
 	background: rgba(255,199,65,0.8); 
 }
 #info4{
-	background: url("images/img2.jpg") center/cover fixed;
+	background: url("../images/img2.jpg") center/cover fixed;
 }
 /*background images*/
 #info2{
-	background: url("images/img4.jpg") center/cover fixed;
+	background: url("../images/img4.jpg") center/cover fixed;
 }
 #info{
-	background: url("images/img5.jpg") center/cover fixed;
+	background: url("../images/img5.jpg") center/cover fixed;
 }
 
-
-
-
-
-@media screen and (max-height: 450px) {
+@media(max-width: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }

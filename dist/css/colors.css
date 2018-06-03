@@ -1,0 +1,20 @@
+/* colors */
+.text-primary {
+    color: #a800ff !important;
+}
+
+.text-yellow {
+    color: #ffe959;
+}
+
+.bg-purple {
+    background-color: rgba(177,25,255,.8);
+}
+
+.bg-yellow {
+    background-color: #ffe959;
+}
+
+.bg-orange{
+    background-color: rgba(255,66,0,.8);
+}
