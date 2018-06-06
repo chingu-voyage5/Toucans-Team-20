@@ -29,4 +29,4 @@ Official link: https://www.voog.com
 4. Create a PR(pull request) after pushing your local repo.
 5. Contributors will review it and merge PR into master.
 
-_We'll happy to hear your valuable suggestions/feedback._
+_We would love to hear your valuable suggestions/feedback._
