@@ -136,6 +136,9 @@ footer ul a:hover {
     color: #ffe959 !important;
     text-decoration: none;
 }
+footer.min-height-6{
+    min-height: 100vh;
+}
 
 /* Media */
 
@@ -170,9 +173,6 @@ footer ul a:hover {
     figure img{
         height: 250px;
         width:  250px;
-    }
-    footer.min-height-6{
-            min-height: 100vh;
     }
 }
 
