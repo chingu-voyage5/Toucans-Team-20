@@ -171,6 +171,9 @@ footer ul a:hover {
         height: 250px;
         width:  250px;
     }
+    footer.min-height-6{
+            min-height: 100vh;
+    }
 }
 
 @media screen and (min-width: 640px){
