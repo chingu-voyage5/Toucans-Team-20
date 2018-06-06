@@ -6,7 +6,7 @@ Voog Website Clone | Voyage-5 | chingu.io
 - [Aman](https://github.com/adsingh14)
 
 ### Project Description:
-Clone of Voog Website (https://www.voog.com/)
+Clone of [Voog](https://www.voog.com/) Website - https://chingu-voyage5.github.io/Toucans-Team-20/
 
 ### Technologies
 - HTML
