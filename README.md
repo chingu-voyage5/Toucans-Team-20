@@ -28,4 +28,4 @@ Clone of Voog Website (https://www.voog.com/)
 4. Create a PR(pull request) after pushing your local repo.
 5. Contributors will review it and merge PR into master.
 
-_We're happy to hear your valuable suggestions/feedback._
+_We'll happy to hear your valuable suggestions/feedback._
