@@ -11,6 +11,9 @@ body{
 .min-height-6{
     min-height: 600px;
 }
+.border-bottom-1{
+    border-bottom: 1px solid;
+}
 /* navbar */
 nav{
     transition: padding 0.1s ease;
@@ -74,6 +77,20 @@ aside li:first-of-type{
 }
 
 /* carousel */
+[class*='slide']{
+    /*display: block;*/
+    height: 100vh;
+    
+}
+.slide1{
+    background: url(../images/slide1.jpg) center/cover no-repeat;
+}
+.slide2{
+    background: url(../images/slide2.jpg) center/cover no-repeat;
+}
+.slide3{
+    background: url(../images/slide3.jpg) center/cover no-repeat;
+}
 
 .carousel-caption{
     display: flex;
@@ -102,14 +119,25 @@ figure img{
 }
 /* footer */
 footer {
+    position: relative;
     height: 100vh;
     background: url(../images/footer.jpg) center/cover ;
 }
 
-footer a:hover {
-    color: #ffe959;
+footer ul{
+    position: absolute;
+    bottom: 2em;
+}
+footer ul .nav-link{
+    color:rgba(255,255,255,0.5) !important;
+}
+footer a:hover,
+footer ul a:hover {
+    color: #ffe959 !important;
     text-decoration: none;
 }
+
+/* Media */
 
 @media screen and (min-width: 1020px){
     .carousel-inner, .carousel-item img{
@@ -136,7 +164,8 @@ footer a:hover {
         padding: 1.3rem;
     }
     .carousel-caption{
-        top:25%
+        top:25%;
+        flex-direction: column;
     }
     figure img{
         height: 250px;
@@ -165,7 +194,10 @@ footer a:hover {
 
 @media screen and (max-width: 480px){
     .title{
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+    .carousel-caption{
+        top: 15%
     }
     .toggler-icon-text{
         display: none;

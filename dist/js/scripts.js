@@ -1,7 +1,7 @@
 $(document).ready(function() {
   
   // Scroll Ease
-  $('aside a[href*="#"]')
+  $('aside a[href*="#"], footer ul a[href*="#"]')
     .click(function (event) {
       if (
         location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
