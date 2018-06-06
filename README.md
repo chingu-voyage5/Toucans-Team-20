@@ -1,12 +1,13 @@
 # Toucans-Team-20 
-Voog Website Clone | Voyage-5 | chingu.io
+Voog Website Clone ([:link:](https://chingu-voyage5.github.io/Toucans-Team-20)) | Voyage-5 | chingu.io
 ---
 ### Team members
 - [Sheena](https://github.com/sheenapercy)
 - [Aman](https://github.com/adsingh14)
 
 ### Project Description:
-Clone of Voog Website (https://www.voog.com/)
+We've decided to make clone of a website.
+Official link: https://www.voog.com
 
 ### Technologies
 - HTML
