@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Prata|Lato:300,400');
+@import url('colors.css');
+body{
+    font:18px Lato;
+    transition: transform 0.5s ease;
+}
+.title {
+    font-family: Prata;
+    font-size: 3.5rem;
+}
+.min-height-6{
+    min-height: 600px;
+}
+.border-bottom-1{
+    border-bottom: 1px solid;
+}
+/* navbar */
+nav{
+    transition: padding 0.1s ease;
+}
+.navbar-toggler{
+    display: inline-block !important;
+    background-color: transparent;
+    border-color:white !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+.navbar-toggler:active,
+.navbar-toggler:hover,
+.navbar-toggler:focus{
+    background-color: transparent;
+}
+
+aside{
+    position: absolute;
+    top:0;
+    right: -100%;
+    height: 100vh;
+    font: 1.4rem Lato;
+    padding-top: 4em;
+    background: rgba(0,0,0,.9);
+    width: 16rem;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition:right 0.7s ease-in-out;
+}
+.open{
+    transition:right 0.3s ease;
+    right: 0rem;
+}
+aside a:hover,
+aside a:active,
+aside a:focus
+{
+    color: #ffe959 !important
+}
+
+aside li:first-of-type{
+    height: 48px;
+    width:48px;
+    visibility: hidden;
+    position: absolute;
+    top:    0.8rem;
+    right:  2.6rem;
+    font-size: 1.4em;
+}
+.nav-link, aside a{
+    color:white !important;
+}
+/* centered context */
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* carousel */
+[class*='slide']{
+    /*display: block;*/
+    height: 100vh;
+    
+}
+.slide1{
+    background: url(../images/slide1.jpg) center/cover no-repeat;
+}
+.slide2{
+    background: url(../images/slide2.jpg) center/cover no-repeat;
+}
+.slide3{
+    background: url(../images/slide3.jpg) center/cover no-repeat;
+}
+
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* about */
+
+#about{
+    background:url(../images/img5.jpg) center/cover fixed;
+}
+
+#about .r1_right{
+    background:url(../images/img4.jpg) center/cover;
+}
+
+/* support */
+#support {
+    background: url(../images/img6.jpg) center/cover ;
+}
+/* contact */
+figure img{
+    height:270px;
+    width: 270px;
+}
+/* footer */
+footer {
+    position: relative;
+    height: 100vh;
+    background: url(../images/footer.jpg) center/cover ;
+}
+
+footer ul{
+    position: absolute;
+    bottom: 2em;
+}
+footer ul .nav-link{
+    color:rgba(255,255,255,0.5) !important;
+}
+footer a:hover,
+footer ul a:hover {
+    color: #ffe959 !important;
+    text-decoration: none;
+}
+footer.min-height-6{
+    min-height: 100vh;
+}
+
+/* Media */
+
+@media screen and (min-width: 1020px){
+    .carousel-inner, .carousel-item img{
+        height: 100vh;
+    }
+    .carousel-caption{
+        top:40%
+    }
+}
+
+@media screen and (max-width: 992px){
+    
+    aside{
+        background-color: rgba(0,0,0,.9);
+        width: 100%;
+        text-align: center;
+        transition:all 0.3s ease-in-out;
+    }
+    .navbar-collapse{
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        padding: 1.3rem;
+    }
+    .carousel-caption{
+        top:25%;
+        flex-direction: column;
+    }
+    figure img{
+        height: 250px;
+        width:  250px;
+    }
+}
+
+@media screen and (min-width: 640px){
+    .p-sm-6{
+        padding: 6em !important
+    }
+}
+
+@media screen and (max-width: 576px){
+    .navbar-brand{
+          padding: 1.2rem;
+    }
+    .px-sm-5{
+        padding: 0.5rem !important;
+    }
+    .min-height-6{
+        min-height: 400px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .title{
+        font-size: 2rem;
+    }
+    .carousel-caption{
+        top: 15%
+    }
+    .toggler-icon-text{
+        display: none;
+    }
+    .navbar-toggler{
+        width: 2.7rem;
+        
+    }
+    .p-sm-6{
+        padding: 1em 
+    }
+    figure img{
+       height: 200px;
+       width:  200px;
+   }
+}
