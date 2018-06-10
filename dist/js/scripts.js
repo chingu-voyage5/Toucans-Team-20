@@ -33,9 +33,9 @@ $(document).ready(function() {
   var sidebar = $('aside');
 
   toggler.on('click', function () {
-    sidebar.toggleClass('open ');
+    sidebar.toggleClass('open');
+    $('body').toggleClass('toggle_sidebar');
   });
-
 
 });
 
