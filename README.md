@@ -31,7 +31,7 @@ Official link: https://www.voog.com
 
 #### Todo
 a. Features:
-1. [x] Feature 1 - Re-position website on triggering drawer
+1. [x] Feature 1 - Re-position website on triggering sidebar
 2. [] Feature 2 - Change the slider image with static text.
 3. [] Feature 3 - 'Get Started' Button - show/hide get started button 
 4. [] Feature 4 - Parallax (Images & Buttons) 

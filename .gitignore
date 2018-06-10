@@ -1,2 +1,6 @@
-# folder for testing
-sandbox
+.gitignore
+*.gitignore
+
+
+// sandbox testing file
+test.txt
