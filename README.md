@@ -31,11 +31,11 @@ Official link: https://www.voog.com
 
 #### Todo
 a. Features:
-1. [x] Feature 1 - Re-position website on triggering sidebar
-2. [] Feature 2 - Change the slider image with static text.
-3. [] Feature 3 - 'Get Started' Button - show/hide get started button 
-4. [] Feature 4 - Parallax (Images & Buttons) 
-5. [] Feature 5 - Navbar affix (responsive mode)
-6. [] Feature 6 - Changing navbar logo & text of color each section along with affix.
+[x] Feature 1 - Re-position website on triggering sidebar
+[] Feature 2 - Change the slider image with static text.
+[] Feature 3 - 'Get Started' Button - show/hide get started button 
+[] Feature 4 - Parallax (Images & Buttons) 
+[] Feature 5 - Navbar affix (responsive mode)
+[] Feature 6 - Changing navbar logo & text of color each section along with affix.
 
 _We would love to hear your valuable suggestions/feedback._
