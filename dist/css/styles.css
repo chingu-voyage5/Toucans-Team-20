@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Prata|Lato:300,400');
 @import url('colors.css');
+
 body{
     font:18px Lato;
-    transition: transform 0.5s ease;
     position: relative;
+    transition: transform 0.5s ease;
 }
 .title {
     font-family: Prata;
@@ -18,18 +18,29 @@ body{
 /* navbar */
 nav{
     transition: padding 0.1s ease;
+    font-size: 1rem;
 }
 .navbar-toggler{
-    display: inline-block !important;
     background-color: transparent;
     border-color:white !important;
-    color: white !important;
     box-shadow: none !important;
+    display: inline-block !important;
+    font-size: 1rem;
 }
 .navbar-toggler:active,
 .navbar-toggler:hover,
 .navbar-toggler:focus{
     background-color: transparent;
+}
+
+.navbar-toggler span,
+.navbar-toggler i {
+    color: white;
+}
+
+.navbar-toggler:active span,
+.navbar-toggler:active i {
+    color: #333;
 }
 
 aside{
@@ -49,8 +60,9 @@ aside{
 }
 .open{
     transition:right 0.3s ease;
-    right: 0rem;
+    right: 0;
 }
+
 /* body wrapper */
 .wrapper{
     position: relative;
@@ -66,7 +78,7 @@ aside a:hover,
 aside a:active,
 aside a:focus
 {
-    color: #ffe959 !important
+    color: #ffe959 !important;
 }
 
 aside li:first-of-type{
@@ -91,12 +103,11 @@ aside li:first-of-type{
 
 /* carousel */
 [class*='slide']{
-    /*display: block;*/
     height: 100vh;
-    
 }
+
 .slide1{
-    background: url(../images/slide1.jpg) center/cover no-repeat;
+    background: url(../images/slide1.jpg) top/cover no-repeat;
 }
 .slide2{
     background: url(../images/slide2.jpg) center/cover no-repeat;
@@ -106,11 +117,21 @@ aside li:first-of-type{
 }
 
 .carousel-caption{
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    text-align: left;
+    height: 100vh;
+    top: 30%;
 }
+
+.carousel-control-next {
+    bottom: 2em;
+    right: 3em;
+    top: unset;
+    width: 0;
+}
+
 /* about */
 
 #about{
@@ -153,16 +174,11 @@ footer.min-height-6{
     min-height: 100vh;
 }
 
-/* Media */
-
-@media screen and (min-width: 1020px){
-    .carousel-inner, .carousel-item img{
-        height: 100vh;
-    }
-    .carousel-caption{
-        top:40%
-    }
-}
+/*
+    ===========
+    Breakpoints
+    ===========
+*/
 
 @media screen and (max-width: 992px){
     .wrapper.toggle_sidebar{
@@ -170,20 +186,20 @@ footer.min-height-6{
     }
     aside{
         background-color: rgba(0,0,0,.9);
-        width: 100%;
         text-align: center;
         transition:all 0.3s ease-in-out;
+        width: 100%;
     }
     .navbar-collapse{
+        left: 0;
+        padding: 1.3rem;
         position: absolute;
         right: 0;
-        left: 0;
         top: 0;
-        padding: 1.3rem;
     }
     .carousel-caption{
-        top:25%;
         flex-direction: column;
+        top: 38%;
     }
     figure img{
         height: 250px;
@@ -191,32 +207,24 @@ footer.min-height-6{
     }
 }
 
-@media screen and (max-width: 480px){
-    .title{
-        font-size: 2rem;
+@media screen and (max-width: 768px){
+    .carousel-caption {
+        top: 0;
     }
-    .carousel-caption{
-        top: 15%
-    }
-    .toggler-icon-text{
-        display: none;
-    }
-    .navbar-toggler{
-        width: 2.7rem;
-        
-    }
-    .p-sm-6{
-        padding: 1em 
-    }
-    figure img{
-       height: 200px;
-       width:  200px;
-   }
 }
 
 @media screen and (max-width: 576px){
+    aside {
+        justify-content: center;
+    }
     .navbar-brand{
-          padding: 1.2rem;
+        padding: 1.2rem;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .carousel-control-next {
+        display: none;
     }
     .px-sm-5{
         padding: 0.5rem !important;
@@ -226,8 +234,47 @@ footer.min-height-6{
     }
 }
 
-@media screen and (min-width: 640px){
-    .p-sm-6{
-        padding: 6em !important
-    }    
-}    
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 2rem;
+    }
+    .carousel-caption {
+        align-items: start;
+    }
+    .toggler-icon-text {
+        display: none;
+    }
+    .navbar-toggler {
+        width: 2.7rem;
+    }
+    .p-sm-6 {
+        padding: 1em;
+    }
+    figure img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .p-sm-6 {
+        padding: 6em !important;
+    }
+    .carousel-inner,
+    .carousel-item img {
+        height: 100vh;
+    }
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+        top: 34%;
+    }
+    .carousel-caption h1 {
+        font-size: 4.4rem;
+    }
+    .carousel-caption p {
+        font-size: 1.7rem;
+        font-weight: 300;
+        width: 65%;
+    }
+}
