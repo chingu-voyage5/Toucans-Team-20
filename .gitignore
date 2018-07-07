@@ -1,12 +1,2 @@
-<<<<<<< HEAD
-# folder for testing
+# folder for experiments
 sandbox
-
-=======
-.gitignore
-*.gitignore
-
-
-// sandbox testing file
->>>>>>> feature1
-test.txt

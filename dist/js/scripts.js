@@ -1,5 +1,19 @@
 $(document).ready(function() {
-  
+  // Navbar affix
+  var navbar = $('.navbar');
+  var navbar_button = $('.navbar-toggler');
+
+  var section_6 = $('#contact');
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > section_6.offset().top) {
+      navbar_button.addClass('black');
+    } else {
+
+    }
+  });
+
+
   // Scroll Ease
   $('aside a[href*="#"], footer ul a[href*="#"]')
     .click(function (event) {
@@ -27,7 +41,7 @@ $(document).ready(function() {
         }
       }
     });
-  
+
   //Side Navbar
   var toggler = $("#v-toggler");
   var sidebar = $('aside');
@@ -38,9 +52,6 @@ $(document).ready(function() {
   });
 
 });
-
-
-
 
   /* var scroll_pos = 0;
   $(document).scroll(function() {

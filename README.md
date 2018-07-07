@@ -1,4 +1,4 @@
-# Toucans-Team-20 
+# Toucans-Team-20
 Voog Website Clone ([:link:](https://chingu-voyage5.github.io/Toucans-Team-20)) | Voyage-5 | chingu.io
 ---
 ### Team members
@@ -6,8 +6,7 @@ Voog Website Clone ([:link:](https://chingu-voyage5.github.io/Toucans-Team-20)) 
 - [Aman](https://github.com/adsingh14)
 
 ### Project Description:
-We've decided to make clone of a website.
-Official link: https://www.voog.com
+Clone of a website landing page.(Official link: https://www.voog.com)
 
 ### Technologies
 - HTML
@@ -22,8 +21,8 @@ Official link: https://www.voog.com
 
     `git checkout -b <branch-name>`
 
-3. Once changes are committed, push changes by doing 
-    
+3. Once changes are committed, push changes by doing
+
     `git push <remote-name> <branch-name>`
 
 4. Create a PR(pull request) after pushing your local repo.
@@ -32,9 +31,9 @@ Official link: https://www.voog.com
 ### Todo
 
 - [x] Feature 1 - Re-position website on triggering sidebar
-- [ ] Feature 2 - Change the slider image with static text.
-- [ ] Feature 3 - 'Get Started' Button - show/hide get started button 
-- [ ] Feature 4 - Parallax (Images & Buttons) 
+- [x] Feature 2 - Replace the slide effect with fade.
+- [ ] Feature 3 - 'Get Started' Button - show/hide get started button
+- [ ] Feature 4 - Parallax (Images & Buttons)
 - [ ] Feature 5 - Navbar affix (responsive mode)
 - [ ] Feature 6 - Changing navbar logo & text of color each section along with affix.
 
