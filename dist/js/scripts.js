@@ -9,13 +9,13 @@ $(document).ready(function() {
     if ($(this).scrollTop() > section_6.offset().top) {
       navbar_button.addClass('black');
     } else {
-
+      navbar_button.removeClass('black');
     }
   });
 
 
   // Scroll Ease
-  $('aside a[href*="#"], footer ul a[href*="#"]')
+  $('.sidebar a[href*="#"], footer ul a[href*="#"]')
     .click(function (event) {
       if (
         location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
@@ -44,7 +44,7 @@ $(document).ready(function() {
 
   //Side Navbar
   var toggler = $("#v-toggler");
-  var sidebar = $('aside');
+  var sidebar = $('.sidebar');
 
   toggler.on('click', function () {
     sidebar.toggleClass('open');
@@ -72,4 +72,4 @@ $(document).ready(function() {
       $(".login-btn").css("color", "#fff");
     }
   });
-   */
+*/

@@ -2,13 +2,14 @@
 Voog Website Clone ([:link:](https://chingu-voyage5.github.io/Toucans-Team-20)) | Voyage-5 | chingu.io
 ---
 ### Team members
-- [Sheena](https://github.com/sheenapercy)
 - [Aman](https://github.com/adsingh14)
 
 ### Project Description:
+
 Clone of a website landing page.(Official link: https://www.voog.com)
 
 ### Technologies
+
 - HTML
 - CSS
 - Javascript
@@ -16,6 +17,7 @@ Clone of a website landing page.(Official link: https://www.voog.com)
 - Bootstrap 4
 
 ### Contributing
+
 1. Fork the repository.
 2. Create a new branch.
 
@@ -30,11 +32,12 @@ Clone of a website landing page.(Official link: https://www.voog.com)
 
 ### Todo
 
-- [x] Feature 1 - Re-position website on triggering sidebar
-- [x] Feature 2 - Replace the slide effect with fade.
-- [ ] Feature 3 - 'Get Started' Button - show/hide get started button
-- [ ] Feature 4 - Parallax (Images & Buttons)
-- [ ] Feature 5 - Navbar affix (responsive mode)
-- [ ] Feature 6 - Changing navbar logo & text of color each section along with affix.
+- [x] Feature 1 - Convert sidebar with offset sidebar.
+- [x] Feature 2 - Replace slide transition scroll effect with fade.
+- [x] Feature 3 - Add intro section along with video button.
+- [ ] Feature 4 - 'Get Started' Button with show/hide effect
+- [ ] Feature 5 - Parallax (Images & Buttons)
+- [ ] Feature 6 - Navbar affix (responsive mode)
+- [ ] Feature 7 - Changing navbar logo & text of color each section along with affix.
 
 _We would love to hear your valuable suggestions/feedback._
