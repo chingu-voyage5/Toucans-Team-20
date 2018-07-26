@@ -1,192 +1,266 @@
 <!DOCTYPE html>
 <html lang='en'>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Voog Clone - A Chingu Project</title>
-        <!-- Styles -->
-        <link rel="stylesheet" href="dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata%7CLato:300,400">
-        <link rel="stylesheet" href="dist/css/font-awesome.min.css">
-        <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Voog Clone - A Chingu Project</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata%7CLato:300,400%7CMontserrat:600">
+    <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-        <link rel="stylesheet" href="dist/css/styles.css">
-        <link rel="stylesheet" href="dist/css/colors.css">
-    </head>
-    <body id="home" class="bg-dark wrapper">
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark  fixed-top py-sm-4 px-sm-5">
-            <a class="navbar-brand" href="#">VOOG</a>
-            <div class="collapse navbar-collapse d-flex" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="sidebar px-4 text-center">
-                        <ul class="list-unstyled">
-                            <li class="nav-item">
-                                <a href="#home" class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#about" class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#support" class="nav-link">Support</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#contact" class="nav-link">Contact</a>
-                            </li>
-                            <li class="nav-item mt-5 d-flex justify-content-center">
-                                <ul class="d-flex nav-social-icons list-unstyled">
-                                    <li class="nav-item"><a href="#" class="nav-link fa fa-facebook"></a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link fa fa-twitter"></a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link fa fa-linkedin"></a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link fa fa-google-plus"></a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link pr-4 login-label">LOG IN</a>
-                    </li>
-                </ul>
-                <button class="navbar-toggler btn btn-outline-light rounded-0 p-2" id="v-toggler">
-                    <span class="toggler-icon-text">MENU</span>
-                    <i class="fa fa-navicon"></i>
+    <link rel="stylesheet" href="dist/css/styles.css">
+    <link rel="stylesheet" href="dist/css/colors.css">
+</head>
+
+<body id="home" class="bg-dark wrapper">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top py-sm-4 px-sm-5">
+        <a class="navbar-brand" href="#">VOOG</a>
+        <div class="collapse navbar-collapse d-flex" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="sidebar px-4 text-center">
+                    <ul class="list-unstyled">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#support" class="nav-link">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item mt-5 d-flex justify-content-center">
+                            <ul class="d-flex nav-social-icons list-unstyled">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link fa fa-facebook"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link fa fa-twitter"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link fa fa-linkedin"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link fa fa-google-plus"></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link pr-4 login-label">LOG IN</a>
+                </li>
+            </ul>
+            <button class="navbar-toggler btn btn-outline-light rounded-0 p-2" id="v-toggler">
+                <span class="toggler-icon-text">MENU</span>
+                <i class="fa fa-navicon"></i>
+            </button>
+        </div>
+    </nav>
+    <!-- slider -->
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item slide1 active">
+                <div class="carousel-caption d-md-block">
+                    <h1 class="title">Build awesome websites/stores</h1>
+                    <p>Lorem design and deliver awesome buildings and public spaces — and run their website on Voog.</p>
+                </div>
+            </div>
+            <div class="carousel-item slide2">
+                <div class="carousel-caption d-md-block">
+                    <h1 class="title">Build awesome websites/stores</h1>
+                    <p>Jane Deo creates awesome hyperrealist paintings on huge canvases — and runs his website on Voog.</p>
+                </div>
+            </div>
+            <div class="carousel-item slide3">
+                <div class="carousel-caption d-md-block">
+                    <h1 class="title">Build awesome websites/stores</h1>
+                    <p>Hipster Ipsum creates dreamy warm guitar music — and run his website on Voog.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="fa fa-2x fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <div class="get-started-btn hero-btn text-center">
+            <a class="btn btn-lg btn-default rounded-0 bg-purple-opaque text-uppercase px-lg-5 py-lg-4 text-white" href="#" role="button">Get Started</a>
+        </div>
+    </div>
+    <main class="container-fluid">
+        <!-- intro -->
+        <section class="row" id="intro">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-lg-6 min-height-6 bg-white centered p-sm-6 p-4">
+                        <h2 class="title text-primary">Easy to use. Super powerful.</h2>
+                        <p>With Voog you can make beautiful websites from scratch on your own. At the same time web pros build
+                            completely unique large-scale websites on it for their customers. Unlike traditional website
+                            builders, Voog is simple to use, already set up, hosted and monitored 24/7 by our team.</p>
+                        <a href="#" class="text-primary">And we are always here to help. →</a>
+                    </div>
+                    <div class="col-lg-6 min-height-6 d-flex justify-content-center align-items-center px-sm-4 py-4 r1_right bg-light-grey">
+                        <div class="template-wrapper desktop">
+                            <img class="fluid-img" src="dist/images/desktop-template.jpg" alt="laptop-screen">
+                            <!-- Play button -->
+                            <button type="button" class="btn rounded-circle play-btn" data-toggle="modal" data-target="#exampleModal">
+                                <i class="fa fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="template-wrapper mobile">
+                            <img class="template-mobile fluid-img" src="dist/images/mobile-template.png" alt="mobile-screen">
+                            <!-- Play button -->
+                            <button type="button" class="btn rounded-circle play-btn" data-toggle="modal" data-target="#exampleModal">
+                                <i class="fa fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 blank-div bg-white"></div>
+                    <div class="col-lg-6 col-sm-12 p-0 bg-light-grey">
+                        <div class="mb-5 pt-md-4 pt-4 pb-lg-3 get-started-btn intro-btn text-center">
+                            <a class="btn btn-lg btn-default rounded-0 bg-purple-opaque text-uppercase px-lg-5 py-lg-4 text-white" href="#" role="button">Watch Demo</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- about -->
+        <section class="row" id="about">
+            <div class="col-sm-12 text-white">
+                <!-- row1 -->
+                <div class="row">
+                    <div class="col-md-6 min-height-6 bg-purple centered p-sm-6 p-4">
+                        <h2 class="title">Everything is what it seems</h2>
+                        <p>Your website is literally what you make out of it. No tricks, no tweaks, no confusing admin panels. Just drag and drop your pics, texts and videos straight into the site and edit them on the spot in your browser. No matter which device you use. Anytime. Anywhere.</p>
+                    </div>
+                    <div class="col-md-6 min-height-6 r1_right"></div>
+                </div>
+                <!-- row2 -->
+                <div class="row">
+                    <div class="col-md-6 min-height-6 "></div>
+                    <div class="col-md-6 min-height-6  bg-orange centered p-sm-6 p-4">
+                        <h2 class="title">Responsive by nature</h2>
+                        <p>Voog is flexible and fluid. Your site can be enjoyed in any environment, be it a smartphone, tablet or desktop.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- support  -->
+        <section class="row text-white min-height-6 " id="support">
+            <div class="col-md-6 centered p-sm-6 p-4">
+                <h2 class="title">24/7 Support</h2>
+                <p>
+                    Whether you’re a <strong>developer</strong> in need of assistance, a <strong>designer</strong> hungry for nice templates to kickstart your creative process, or <strong>user</strong> needing some guidance when managing your site, we are backing you up. Our 24/7 support lets you focus fully on creative endeavour.
+                </p>
+                <a href="#" class="text-white">Contact Us →</a>
+            </div>
+            <div class="col-md-6"></div>
+        </section>
+        <!-- contact -->
+        <section class="row min-height-6" id="contact">
+            <div class="col-md-6 bg-white p-sm-6 p-4">
+                <figure class="text-center">
+                    <img src="dist/images/img3.jpg" class="rounded-circle fluid-img my-4" alt="contact1">
+                    <figcaption>
+                        <h2 class="title text-dark">Ready for takeoff</h2>
+                    </figcaption>
+                </figure>
+                <p>
+                    Voog is pure magic: everything works <strong>straight out of the box</strong> . No installing, no configuring and no update notifications. It’s done for you automagically. Oh, and Voog has built-in SEO support.
+                </p>
+                <p>
+                    As a <strong>client</strong> of a web agency you’ll never have to wait for your system admin to add or edit your posts – with Voog anyone can do it herself. Trust us.
+                </p>
+            </div>
+            <div class="col-md-6 bg-yellow p-sm-6 p-4">
+                <figure class="text-center">
+                    <img src="dist/images/img5.jpg" class="rounded-circle fluid-img my-4" alt="contact2">
+                    <figcaption>
+                        <h2 class="title text-dark">True symbiosis</h2>
+                    </figcaption>
+                </figure>
+                <p>
+                    Voog is a dream come true for <strong>designers</strong> and <strong>designers</strong> creating sites for their <strong>designers</strong> . This is your chance to build something really beautiful while making your client’s content management easy like Sunday morning.
+                </p>
+                <p>
+                    Are you a <strong>hosting</strong> company? Excellent. We have an enterprise platform ready for you.
+                </p>
+                <a href="#" class="text-white">Apply Now →</a>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="row text-white d-flex justify-content-around align-items-center min-height-6" id="footer">
+            <div class="col-md-12 display-4 title text-center">
+                <p>Take the plunge.</p>
+                <a href="#" class="text-yellow border-bottom-1">Try for free ›</a>
+            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#support" class="nav-link">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <ul class="nav social-icons">
+                <li class="nav-item">
+                    <a href="#" class="nav-link fa fa-facebook"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link fa fa-twitter"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link fa fa-linkedin"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link fa fa-google-plus"></a>
+                </li>
+            </ul>
+        </footer>
+        <!-- Video modal start-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"  aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="video-wrapper">
+                            <iframe class="intro-video" src="https://player.vimeo.com/video/153749393?autoplay=1&title=0&byline=0&portrait=0" ></iframe>
+                         </div>
+                        <script src="https://player.vimeo.com/api/player.js"></script>
+                    </div>
+                </div>
+            </div>
+            <div class="close-btn">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-        </nav>
-        <!-- slider -->
-        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item slide1 active">
-                    <div class="carousel-caption d-md-block">
-                        <h1 class="title">Build awesome websites/stores</h1>
-                        <p>Lorem design and deliver awesome buildings and public spaces — and run their website on Voog.</p>
-                    </div>
-                </div>
-                <div class="carousel-item slide2">
-                    <div class="carousel-caption d-md-block">
-                        <h1 class="title">Build awesome websites/stores</h1>
-                        <p>Jane Deo creates awesome hyperrealist paintings on huge canvases — and runs his website on Voog.</p>
-                    </div>
-                </div>
-                <div class="carousel-item slide3">
-                    <div class="carousel-caption d-md-block">
-                        <h1 class="title">Build awesome websites/stores</h1>
-                        <p>Hipster Ipsum creates dreamy warm guitar music — and run his website on Voog.</p>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="fa fa-2x fa-angle-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-        <main class="container-fluid">
-            <!-- about -->
-            <section class="row" id="about">
-                <div class="col-sm-12 text-white ">
-                    <!-- row1 -->
-                    <div class="row">
-                        <div class="col-md-6 min-height-6 bg-purple centered p-sm-6 p-4">
-                            <h2 class="title">Everything is what it seems</h2>
-                            <p>Your website is literally what you make out of it. No tricks, no tweaks, no confusing admin panels.
-                                Just drag and drop your pics, texts and videos straight into the site and edit them on the
-                                spot in your browser. No matter which device you use. Anytime. Anywhere.</p>
-                        </div>
-                        <div class="col-md-6 min-height-6 r1_right"></div>
-                    </div>
-                    <!-- row2 -->
-                    <div class="row">
-                        <div class="col-md-6 min-height-6 "></div>
-                        <div class="col-md-6 min-height-6  bg-orange centered p-sm-6 p-4">
-                            <h2 class="title">Responsive by nature</h2>
-                            <p>Voog is flexible and fluid. Your site can be enjoyed in any environment, be it a smartphone,
-                                tablet or desktop.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- support  -->
-            <section class="row text-white min-height-6 " id="support">
-                <div class="col-md-6 centered p-sm-6 p-4">
-                    <h2 class="title">24/7 Support</h2>
-                    <p>
-                        Whether you’re a <strong>developer</strong>
-                        in need of assistance, a <strong>designer</strong>
-                        hungry for nice templates to kickstart your creative process, or <strong>user</strong>
-                        needing some guidance when managing your site, we are backing you up. Our 24/7 support lets you focus fully on creative endeavour.
-                    </p>
-                    <a href="#" class="text-white">Contact Us</a>
-                </div>
-                <div class="col-md-6"></div>
-            </section>
-            <!-- contact -->
-            <section class="row min-height-6" id="contact">
-                <div class="col-md-6 bg-white p-sm-6 p-4">
-                    <figure class="text-center">
-                        <img src="dist/images/img3.jpg" class="rounded-circle fluid-img my-4" alt="contact1">
-                        <figcaption>
-                            <h2 class="title">Ready for takeoff</h2>
-                        </figcaption>
-                    </figure>
-                    <p>Ready for takeoff Voog is pure magic: everything works straight out of the box. No installing, no configuring and no update notifications. It’s done for you automagically. Oh, and Voog has built-in SEO support. </p>
-                    <p>As a client of a web agency you’ll never have to wait for your system admin to add or edit your posts – with Voog anyone can do it herself. Trust us.</p>
-                </div>
-                <div class="col-md-6 bg-yellow p-sm-6 p-4">
-                    <figure class="text-center">
-                        <img src="dist/images/img5.jpg" class="rounded-circle fluid-img my-4" alt="contact2">
-                        <figcaption>
-                            <h2 class="title">True symbiosis</h2>
-                        </figcaption>
-                    </figure>
-                    <p>Voog is a dream come true for designers and developers creating sites for their clients. This is your chance to build something really beautiful while making your client’s content management easy like Sunday morning.</p>
-                    <p>Are you a hosting company? Excellent. We have an enterprise platform ready for you.</p>
-                </div>
-            </section>
-            <!-- footer -->
-            <footer class="row text-white d-flex justify-content-around align-items-center min-height-6" id="footer">
-                <div class="col-md-12 display-4 title text-center">
-                    <p>Take the plunge.</p>
-                    <a href="#" class="text-yellow border-bottom-1">Try for free ›</a>
-                </div>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#support" class="nav-link">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-                <ul class="nav social-icons">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link fa fa-facebook"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link fa fa-twitter"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link fa fa-linkedin"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link fa fa-google-plus"></a>
-                    </li>
-                </ul>
-            </footer>
-        </main>
-        <!-- Scripts -->
-        <script src="dist/js/jquery-3.3.1.min.js"></script>
-        <script src="dist/js/popper.min.js"></script>
-        <script src="dist/js/bootstrap.min.js"></script>
-        <!--
+        <!-- Video modal end -->
+    </main>
+    <!-- Scripts -->
+    <script src="dist/js/jquery-3.3.1.min.js"></script>
+    <script src="dist/js/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!--
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
-        <script src="dist/js/scripts.js"></script>
-    </body>
+    <script src="dist/js/scripts.js"></script>
+</body>
+
 </html>
