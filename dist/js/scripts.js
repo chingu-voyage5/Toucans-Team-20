@@ -13,6 +13,26 @@ $(document).ready(function() {
     }
   });
 
+  // Background changer
+  var section_4 = $('#about');
+  var section_5 = $('.second-half');
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > section_4.offset().top - 500 && $(this).scrollTop() < section_5.offset().top - 300) {
+      section_4.css('background', 'url(dist/images/img3.jpg) top/cover fixed no-repeat');
+    }
+    else if ($(this).scrollTop() > section_4.offset().top - 500 && $(this).scrollTop() < section_5.offset().top + 500)
+    {
+      section_4.css('background', 'url(dist/images/img4.jpg) top/cover fixed no-repeat');
+    }
+    else {
+      section_4.css('background',' #000');
+    }
+  });
+
+  // TODO: Sticky button
+  var sticky_btn = $('.sticky-btn');
+
 
   // Scroll Ease
   $('.sidebar a[href*="#"], footer ul a[href*="#"]')

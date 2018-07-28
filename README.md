@@ -35,8 +35,8 @@ Clone of a website landing page.(Official link: https://www.voog.com)
 - [x] Feature 1 - Convert sidebar with offset sidebar.
 - [x] Feature 2 - Replace slide transition scroll effect with fade.
 - [x] Feature 3 - Add intro section along with video button.
-- [ ] Feature 4 - 'Get Started' Button with show/hide effect
-- [ ] Feature 5 - Parallax (Images & Buttons)
+- [ ] Feature 4 - 'Get Started' Sticky Button with show/hide effect
+- [x] Feature 5 - Parallax (Images & Buttons)
 - [ ] Feature 6 - Navbar affix (responsive mode)
 - [ ] Feature 7 - Changing navbar logo & text of color each section along with affix.
 

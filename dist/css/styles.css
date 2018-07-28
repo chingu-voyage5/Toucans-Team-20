@@ -281,12 +281,9 @@ sidebar a {
 /* about */
 
 #about {
-    background: url(../images/img5.jpg) center/cover fixed;
+    transition: all 0.5s ease;
 }
 
-#about .r1_right {
-    background: url(../images/img4.jpg) center/cover;
-}
 
 /* support */
 
@@ -295,6 +292,17 @@ sidebar a {
 }
 
 /* contact */
+
+#contact {
+    position: relative;
+}
+
+.sticky-btn {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    transform: translateY(50%);
+}
 
 figure img {
     height: 270px;
@@ -379,6 +387,7 @@ Breakpoints
     .intro-btn {
         transform: translate(0);
     }
+
     figure img {
         height: 250px;
         width: 250px;
