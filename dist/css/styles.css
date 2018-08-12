@@ -152,6 +152,7 @@ sidebar a {
     right: 3em;
     top: unset;
     width: 0;
+    z-index: 1;
 }
 
 .get-started-btn {
@@ -163,7 +164,7 @@ sidebar a {
 .hero-btn  {
     position: absolute;
     bottom: 0;
-    z-index: 1;
+    z-index: 0;
 }
 
 .intro-btn {
@@ -276,7 +277,7 @@ sidebar a {
     width: 100%;
 }
 
-/* modal */
+/* modal end */
 
 /* about */
 
@@ -298,10 +299,20 @@ sidebar a {
 }
 
 .sticky-btn {
+    bottom: 0;
+    transform: translateY(50%);
+    z-index: 2;
+}
+
+.temp_state_1 {
+    bottom: 4rem;
+    position: fixed;
+    transition: all 0.1s;
+}
+
+.final_state {
     position: absolute;
     bottom: 0;
-    z-index: 2;
-    transform: translateY(50%);
 }
 
 figure img {
