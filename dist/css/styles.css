@@ -152,6 +152,7 @@ sidebar a {
     right: 3em;
     top: unset;
     width: 0;
+    z-index: 1;
 }
 
 .get-started-btn {
@@ -163,7 +164,7 @@ sidebar a {
 .hero-btn  {
     position: absolute;
     bottom: 0;
-    z-index: 1;
+    z-index: 0;
 }
 
 .intro-btn {
@@ -276,17 +277,14 @@ sidebar a {
     width: 100%;
 }
 
-/* modal */
+/* modal end */
 
 /* about */
 
 #about {
-    background: url(../images/img5.jpg) center/cover fixed;
+    transition: all 0.5s ease;
 }
 
-#about .r1_right {
-    background: url(../images/img4.jpg) center/cover;
-}
 
 /* support */
 
@@ -295,6 +293,27 @@ sidebar a {
 }
 
 /* contact */
+
+#contact {
+    position: relative;
+}
+
+.sticky-btn {
+    bottom: 0;
+    transform: translateY(50%);
+    z-index: 2;
+}
+
+.temp_state_1 {
+    bottom: 4rem;
+    position: fixed;
+    transition: all 0.1s;
+}
+
+.final_state {
+    position: absolute;
+    bottom: 0;
+}
 
 figure img {
     height: 270px;
@@ -379,6 +398,7 @@ Breakpoints
     .intro-btn {
         transform: translate(0);
     }
+
     figure img {
         height: 250px;
         width: 250px;
