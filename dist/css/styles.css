@@ -226,7 +226,6 @@ sidebar a {
     display: none;
 }
 
-
 /* modal */
 
 .modal {
@@ -423,6 +422,9 @@ Breakpoints
     }
     .modal-dialog {
         max-width: unset;
+    }
+    #about {
+        background: url(../images/img4.jpg) center/cover no-repeat;
     }
     footer ul {
         bottom: 2em;
