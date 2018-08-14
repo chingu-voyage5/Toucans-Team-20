@@ -73,8 +73,8 @@ $(document).ready(function() {
                 sticky_btn.removeClass('temp_state_1');
             }
         });
-
     }
+
     // Scroll Ease
     $('.sidebar a[href*="#"], footer ul a[href*="#"]')
         .click(function(event) {
