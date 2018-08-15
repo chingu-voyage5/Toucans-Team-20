@@ -42,4 +42,8 @@ Clone of a website landing page.(Official link: https://www.voog.com)
 - [ ] Feature 6 - Navbar affix (responsive mode)
 - [ ] Feature 7 - Changing navbar logo & text of color each section along with affix.
 
+### Extra Credits
+
+Unsplash, Font Awesome
+
 _I would like to hear your valuable suggestions/feedback._
